@@ -68,7 +68,6 @@ export async function discoverAvailableModels() {
       'gemini-flash-latest',
       'gemini-3.8-flash',
       'gemini-3.7-flash',
-      'gemini-2.5-flash-lite',
       'gemini-2.5-flash',
       'gemini-2.5-pro',
       'gemini-2.0-flash',
@@ -181,15 +180,7 @@ CRITICAL: Return ONLY valid, parseable JSON. Do not wrap in markdown code blocks
 
   contents.push({ text: prompt });
 
-  const candidateModels = [
-    'gemini-3.5-flash-lite',
-    'gemini-3.5-flash',
-    'gemini-flash-lite-latest',
-    'gemini-flash-latest',
-    'gemini-3.8-flash',
-    'gemini-3.7-flash',
-    'gemini-2.5-flash-lite',
-  ];
+
 
   let lastError = null;
   let rawText = '';
@@ -219,7 +210,7 @@ CRITICAL: Return ONLY valid, parseable JSON. Do not wrap in markdown code blocks
   if (!rawText) {
     throw new Error(
       lastError?.message ||
-        'Failed to generate analysis from Google Gemini API across candidate models.'
+      'Failed to generate analysis from Google Gemini API across candidate models.'
     );
   }
 
@@ -376,7 +367,6 @@ User Question: ${question}`;
     'gemini-flash-latest',
     'gemini-3.8-flash',
     'gemini-3.7-flash',
-    'gemini-2.5-flash-lite',
   ];
 
   let lastError = null;
@@ -404,7 +394,7 @@ User Question: ${question}`;
   if (!rawText) {
     throw new Error(
       lastError?.message ||
-        'Failed to generate answer from Google Gemini API across candidate models.'
+      'Failed to generate answer from Google Gemini API across candidate models.'
     );
   }
 
