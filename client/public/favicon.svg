@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#07121D"/>
+  <rect x="1" y="1" width="46" height="46" rx="9" stroke="#243746" stroke-width="1.5"/>
+  <!-- Neural Synapse Connections -->
+  <path d="M14 24L24 14L34 24L24 34Z" stroke="#49E6F5" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="2 2"/>
+  <path d="M24 10V38M10 24H38" stroke="#49E6F5" stroke-opacity="0.2" stroke-width="1"/>
+  <path d="M16 16L32 32M32 16L16 32" stroke="#49E6F5" stroke-opacity="0.3" stroke-width="1.2"/>
+  <!-- Satellite Nodes -->
+  <circle cx="24" cy="14" r="2.5" fill="#49E6F5"/>
+  <circle cx="34" cy="24" r="2.5" fill="#49E6F5"/>
+  <circle cx="24" cy="34" r="2.5" fill="#49E6F5"/>
+  <circle cx="14" cy="24" r="2.5" fill="#49E6F5"/>
+  <!-- Central Acid Lime Core -->
+  <circle cx="24" cy="24" r="4.5" fill="#B8F36B"/>
+  <circle cx="24" cy="24" r="8" stroke="#B8F36B" stroke-opacity="0.4" stroke-width="1"/>
+</svg>

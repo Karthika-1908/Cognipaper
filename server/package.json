@@ -1,0 +1,25 @@
+{
+  "name": "cognipaper-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cognipaper Neural Research Lab Express Backend & Google GenAI Integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "multer": "^2.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
